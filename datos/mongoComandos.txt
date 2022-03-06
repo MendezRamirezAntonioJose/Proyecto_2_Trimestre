@@ -1,0 +1,24 @@
+-___________________________Local_Mode______________________________________________________________-
+mongoexport --collection=trabajadores --out C:\users\Toni\Desktop\trabajadores.json
+mongoexport --collection=secciones --out C:\users\Toni\Desktop\secciones.json
+mongoexport --collection=muebles --out C:\users\Toni\Desktop\muebles.json
+
+
+mongoimport --db test --collection trabajadores --file C:\users\Toni\Desktop\trabajadores.json
+mongoimport --db test --collection secciones --file C:\users\Toni\Desktop\secciones.json
+mongoimport --db test --collection muebles --file C:\users\Toni\Desktop\muebles.json
+
+
+
+-____________________________________________Online_Mode________________________________________________-
+
+mongoexport --uri mongodb+srv://admin:admin@cluster0.r6zkt.mongodb.net/Proyecto_2_Trimestre --collection trabajadores --type json --out C:\users\Toni\Desktop\trabajadores.json
+mongoexport --uri mongodb+srv://admin:admin@cluster0.r6zkt.mongodb.net/Proyecto_2_Trimestre --collection secciones --type json --out C:\users\Toni\Desktop\secciones.json
+mongoexport --uri mongodb+srv://admin:admin@cluster0.r6zkt.mongodb.net/Proyecto_2_Trimestre --collection muebles --type json --out C:\users\Toni\Desktop\muebles.json
+
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.r6zkt.mongodb.net/Proyecto_2_Trimestre --collection trabajadores --type json --file C:\users\Toni\Desktop\trabajadores.json
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.r6zkt.mongodb.net/Proyecto_2_Trimestre --collection secciones --type json --file C:\users\Toni\Desktop\secciones.json
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.r6zkt.mongodb.net/Proyecto_2_Trimestre --collection muebles --type json --file C:\users\Toni\Desktop\muebles.json

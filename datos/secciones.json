@@ -1,0 +1,5 @@
+{"_id":"cocina","sueldoMensual":1100.0,"muebles":["KNOXHULT","TAGGIG","HUTTEN","IVAR","TORNVIKEN"]}
+{"_id":"exterior","sueldoMensual":1550.0,"muebles":["TARNO","FALHOLMEN","ASKHOLMEN","NORRMANSO","INGMARSO"]}
+{"_id":"salon","sueldoMensual":2100.0,"muebles":["SODERHAMN","KIVIK","GRONLIND","LACK","VIHALS","FROTORP","GUNDE","RAVAROR","PLATSA","BESTA"]}
+{"_id":"banio","sueldoMensual":1800.0,"muebles":["LARBRO","NISSEDAL","LEDSJO","NYJSON","VESKEN"]}
+{"_id":"dormitorio","sueldoMensual":2600.0,"muebles":["GRIMSTORP","PAX","LADA","KULLEN","LINNMON","TROTTEN","BEKANT"]}
