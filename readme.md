@@ -9,7 +9,7 @@
 >
 >>inserts.js
 >>
->>enunciados.js
+>>consultas.js
 >>
 >doc
 >>proyecto_2_trimestre-AntonioJoséMéndezRamírez.pdf
