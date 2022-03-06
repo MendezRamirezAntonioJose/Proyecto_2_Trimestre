@@ -4,20 +4,28 @@
 
 **El repositorio contiene la siguiente estructura:**
 >readme.md
+>
 >src
+>
 >>inserts.js
 >>
 >>enunciados.js
+>>
 >doc
 >>proyecto_2_trimestre-AntonioJoséMéndezRamírez.pdf
 >>
 >>MongoAtlas-AntonioJoséMéndezRamírez.pdf
 >>
 >>ComandosImportExport-AntonioJoséMéndezRamírez.pdf
+>>
 >datos
+>
 >>comandosMongo.txt
+>>
 >>trabajadores.json
+>>
 >>secciones.json
+>>
 >>muebles.json
 
 **Toda la estructura de la base de datos y los operadores usados está en el PDF del proyecto.**
